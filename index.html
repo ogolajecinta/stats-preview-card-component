@@ -17,18 +17,15 @@
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    
-  </style>
+  
 </head>
 
 <body>
 
 <main class="container">
-  <picture>
-    <source media="(min-width: 768px )" srcset="./images/image-header-desktop.jpg">
-    <img src="./images/image-header-mobile.jpg" alt="">
-  </picture>
+  <div class="picture">
+    <div class="overlay"> </div>
+  </div>
 
   <div class="card-body">
 
@@ -40,13 +37,10 @@
 
   <section class="stats">
     <ul>
- <h6>10k+ </h6>
-  <p>companies</p>
-  <h6>314 </h6> 
-  <p>templates</p>
-  <h6>12M+</h6>  
-  <p>queries </p>
-</ul>
+      <li>10k+ <span>companies</span></li>
+      <li>314 <span>templates</span></li>
+      <li>12M+ <span>queries</span></li>
+    </ul>
  </section>
   
   </div>
