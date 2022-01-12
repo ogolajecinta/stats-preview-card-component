@@ -68,6 +68,11 @@ p{
     border-top-right-radius: 10px;
 }
 
+.container .card-body{
+    line-height: 1.6;
+    text-align: center;
+}
+
 .container .desc , .stats li{
     color: var(--main-white);
 }
@@ -82,4 +87,5 @@ p{
 
 ul {
     list-style-type: none;
+    text-align: center;
 }
